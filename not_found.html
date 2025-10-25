@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/x-icon" href="/images/superfuckingicon.ico" />
+		<title>404</title>
+		<meta content="LucasTheGuy's website thingy?????? i think????????????" property="og:title" />
+		<meta content="404 you bumbling idiot" property="og:description" />
+		<meta content="https://lucastheguy.nekoweb.org/ask" property="og:url" />
+		<meta content="https://lucastheguy.nekoweb.org/images/superfuckingicon.ico" property="og:image" />
+		<meta content="DodgerBlue" data-react-helmet="true" name="theme-color" />
+		<style>
+
+			.scroll-image {
+			  width: 100%;
+			  height: 100vh;       /* full viewport height */
+			  overflow: hidden;
+			  position: relative;
+			  background: white;
+			}
+
+			.scroll-image img {
+			  position: absolute;
+			  top: 0;
+			  left: 100%;          /* start just off-screen on the right */
+			  height: 200vh;       /* slightly taller for bottom cutoff */
+			  width: auto;
+			  animation: scroll 30s linear infinite;
+			}
+
+			@keyframes scroll {
+			  0% {
+			    transform: translateX(0);
+			  }
+			  100% {
+			    transform: translateX(calc(-100% - 100vw)); /* move left across container + viewport */
+			  }
+			}
+		</style>
+	</head>
+	<body>
+		<h1>404 stupid</h1>
+		<div class="scroll-image">
+			<img src="images/superfuckingmario.png" alt="superfuckingmario" />
+		</div>
+	</body>
+</html>
