@@ -1,2 +1,0 @@
-- name: deploy2nekoweb
-  uses: indiefellas/deploy2nekoweb@v1.0.0
