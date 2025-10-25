@@ -19,5 +19,5 @@ jobs:
           nekoweb-cookie: ${{ secrets.NEKOWEB_COOKIE }}
           nekoweb-domain: 'lucastheguy.nekoweb.org'
           nekoweb-username: 'lucastheguy'
-          directory: '/'
+          directory: 'website'
 
