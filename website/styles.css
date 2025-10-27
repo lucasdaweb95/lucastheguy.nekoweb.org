@@ -16,6 +16,7 @@ body {
 }
 
 .main {
+	text-align: center;
 	position: relative;
 	margin: 0px auto 0;
 	border: 10px solid black;
@@ -79,3 +80,4 @@ body {
 	background-color: #ffffff;
 	box-sizing: border-box;
 }
+
