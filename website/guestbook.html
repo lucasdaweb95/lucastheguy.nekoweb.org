@@ -1,20 +1,54 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<link href="styles.css?16102025" rel="stylesheet" type="text/css" media="all" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" type="image/x-icon" href="/images/icon.png" />
-		<title>the guestbook</title>
-		<meta content="LucasTheGuy's website thingy?????? i think????????????" property="og:title" />
-		<meta content="html is hard vro..." property="og:description" />
-		<meta content="https://lucastheguy.nekoweb.org/" property="og:url" />
-		<meta content="/images/icon.png" property="og:image" />
-		<meta content="DodgerBlue" data-react-helmet="true" name="theme-color" />
-	</head>
-	<body>
-		<iframe src="https://lucastheguy.atabook.org/" frameborder="0" style="position: fixed;width: 100%;height: 100%;display: block; margin: auto;border: 10px solid black;background-color: #ffffff;box-sizing: border-box;max-width: 900px;width: 90%;left:25%;"></iframe>
-		<!-- abysmal dogshit so big it line wraps lmao -->
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="styles.css?16102025"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/icon.png" />
+    <title>the guestbook</title>
+    <meta
+      content="LucasTheGuy's website thingy?????? i think????????????"
+      property="og:title"
+    />
+    <meta content="html is hard vro..." property="og:description" />
+    <meta content="https://lucastheguy.nekoweb.org/" property="og:url" />
+    <meta content="/images/icon.png" property="og:image" />
+    <meta content="DodgerBlue" name="theme-color" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      iframe {
+        width: 90%;
+        max-width: 900px;
+        height: 90vh;
+        border: 10px solid black;
+        background-color: #ffffff;
+        box-sizing: border-box;
+      }
+
+      @media (max-width: 600px) {
+        iframe {
+          border-width: 6px;
+          height: 85vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="https://lucastheguy.atabook.org/" frameborder="0"></iframe>
+  </body>
 </html>
