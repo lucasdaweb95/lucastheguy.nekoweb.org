@@ -65,25 +65,35 @@
     <h1>A Casa-Do-Contra</h1>
     <h2>Capítulo 1</h2>
     <div class="comic-container">
-        <img class="comic-page" loading="lazy" src="https://file.garden/aPLVV7Bv-XUF9QCk/a%20casa%20do%20contra/ch1/1.jpg" alt="Pagina 1">
-        <img class="comic-page" loading="lazy" src="https://file.garden/aPLVV7Bv-XUF9QCk/a%20casa%20do%20contra/ch1/2.jpg" alt="Pagina 2">
-        <img class="comic-page" loading="lazy" src="https://file.garden/aPLVV7Bv-XUF9QCk/a%20casa%20do%20contra/ch1/3.jpg" alt="Pagina 3">
-        <img class="comic-page" loading="lazy" src="https://file.garden/aPLVV7Bv-XUF9QCk/a%20casa%20do%20contra/ch1/4.jpg" alt="Pagina 4">
-        <img class="comic-page" loading="lazy" src="https://file.garden/aPLVV7Bv-XUF9QCk/a%20casa%20do%20contra/ch1/5.jpg" alt="Pagina 5">
-        <img class="comic-page" loading="lazy" src="https://file.garden/aPLVV7Bv-XUF9QCk/a%20casa%20do%20contra/ch1/6.jpg" alt="Pagina 6">
-        <img class="comic-page" loading="lazy" src="https://file.garden/aPLVV7Bv-XUF9QCk/a%20casa%20do%20contra/ch1/7.jpg" alt="Pagina 7">
-        <img class="comic-page" loading="lazy" src="https://file.garden/aPLVV7Bv-XUF9QCk/a%20casa%20do%20contra/ch1/8.jpg" alt="Pagina 8">
+        <body>
+    <div class="comic-container" id="comic"></div>
+
+    <script>
+    const container = document.getElementById("comic");
+    const base = "https://file.garden/aPLVV7Bv-XUF9QCk/a%20casa%20do%20contra/ch1/";
+
+    for (let i = 1; i <= 41; i++) {
+        const img = document.createElement("img");
+        img.className = "comic-page";
+        img.loading = "lazy";
+        img.src = `${base}${i}.jpg`;
+        img.alt = `Pagina ${i}`;
+        container.appendChild(img);
+    }
+    </script>
+</body>
+
     </div>
 
     <!-- Grid of links -->
     <div class="link-grid">
-        <a href="#">Último Capítulo</a>
-        <a href="#">Lista de capítulos</a>
-        <a href="#">Proximo Capítulo</a>
+        <a href="#">⬅</a>
+        <a href="#">■</a>
+        <a href="#">➡</a>
         <a href="https://www.kickstarter.com/projects/skynixart/the-backwards-house-a-mascot-horror-comic">Kickstarter do time original</a>
         <a href="https://lucastheguy.nekoweb.org/">Sobre o tradutor</a>
         <a href="https://globalcomix.com/c/the-backwards-house">Quadrinhos originais</a>
     </div>
-   <p>isso não é official!!!!! eu não conheço o time original e todos os direitos de copyright vão pro skynix</p>
+   <p style="color: gray;">Isso não é official!!!!! Eu não conheço o time original, e todos os direitos de copyright vão pro skynix.</p>
 </body>
 </html>
