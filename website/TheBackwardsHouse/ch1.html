@@ -1,99 +1,96 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>A Casa-Do-Contra</title>
-    <link rel="icon" type="image/x-icon" href="/images/icon.png" />
-    <meta content="A Casa-Do-Contra" property="og:title" />
-    <meta content="Capitulo 1" property="og:description" />
-    <meta content="https://lucastheguy.nekoweb.org/TheBackwardsHouse/ch1" property="og:url" />
-    <meta content="/images/icon.png" property="og:image" />
-    <style>
-        body {
-            margin: 0;
-            background-color: black;
-            text-align: center;
-            font-family: sans-serif;
-            color: white;
-        }
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>A Casa-Do-Contra</title>
+<style>
+    /* Reset & consistency */
+    html, body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: black;
+        color: white;
+        font-family: sans-serif;
+        text-align: center;
+    }
 
-        .comic-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 1rem;
-            padding: 1rem 0;
-        }
+    .comic-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
 
-        .comic-page {
-            max-width: 100%;
-            max-height: 120vh;
-            width: auto;
-            height: auto;
-            object-fit: contain;
-        }
+    .comic-page {
+        max-width: 100%;
+        max-height: 120vh;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+    }
 
-        /* Grid for links */
-        .link-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr); /* 3 columns */
-            grid-template-rows: repeat(2, auto);  /* 2 rows */
-            gap: 1rem; /* space between links */
-            max-width: 900px; /* optional max width */
-            margin: 2rem auto; /* center horizontally */
-            justify-items: center; /* center each link in its cell */
-            align-items: center;
-        }
+    .link-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 1rem;
+        max-width: 900px;
+        margin: 2rem auto;
+        justify-items: center;
+        align-items: center;
+    }
 
-        .link-grid a {
-            display: block;
-            padding: 1rem 2rem;
-            background-color: #222;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            transition: background 0.2s;
-        }
+    .link-grid a {
+        display: block;
+        padding: 1rem 2rem;
+        background-color: #222;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: background 0.2s;
+    }
 
-        .link-grid a:hover {
-            background-color: #555;
-        }
-    </style>
+    .link-grid a:hover {
+        background-color: #555;
+    }
+
+    p {
+        color: gray;
+    }
+</style>
 </head>
 <body>
-    <h1>A Casa-Do-Contra</h1>
-    <h2>Capítulo 1</h2>
-    <div class="comic-container">
-        <body>
-    <div class="comic-container" id="comic"></div>
+<h1>A Casa-Do-Contra</h1>
+<h2>Capítulo 1</h2>
 
-    <script>
-    const container = document.getElementById("comic");
-    const base = "https://file.garden/aPLVV7Bv-XUF9QCk/a%20casa%20do%20contra/ch1/";
+<div class="comic-container" id="comic"></div>
 
-    for (let i = 1; i <= 41; i++) {
-        const img = document.createElement("img");
-        img.className = "comic-page";
-        img.loading = "lazy";
-        img.src = `${base}${i}.jpg`;
-        img.alt = `Pagina ${i}`;
-        container.appendChild(img);
-    }
-    </script>
-</body>
+<script>
+const container = document.getElementById("comic");
+const base = "https://file.garden/aPLVV7Bv-XUF9QCk/a%20casa%20do%20contra/ch1/";
 
-    </div>
+for (let i = 1; i <= 41; i++) {
+    const img = document.createElement("img");
+    img.className = "comic-page";
+    img.loading = "lazy";
+    img.src = `${base}${i}.jpg`;
+    img.alt = `Pagina ${i}`;
+    container.appendChild(img);
+}
+</script>
 
-    <!-- Grid of links -->
-    <div class="link-grid">
-        <a href="#">⬅</a>
-        <a href="#">■</a>
-        <a href="#">➡</a>
-        <a href="https://www.kickstarter.com/projects/skynixart/the-backwards-house-a-mascot-horror-comic">Kickstarter do time original</a>
-        <a href="https://lucastheguy.nekoweb.org/">Sobre o tradutor</a>
-        <a href="https://globalcomix.com/c/the-backwards-house">Quadrinhos originais</a>
-    </div>
-   <p style="color: gray;">Isso não é official!!!!! Eu não conheço o time original, e todos os direitos de copyright vão pro skynix.</p>
+<div class="link-grid">
+    <a href="#">⬅</a>
+    <a href="#">■</a>
+    <a href="#">➡</a>
+    <a href="https://www.kickstarter.com/projects/skynixart/the-backwards-house-a-mascot-horror-comic">Kickstarter do time original</a>
+    <a href="https://lucastheguy.nekoweb.org/">Sobre o tradutor</a>
+    <a href="https://globalcomix.com/c/the-backwards-house">Quadrinhos originais</a>
+</div>
+
+<p>Isso não é official!!!!! Eu não conheço o time original, e todos os direitos de copyright vão pro skynix.</p>
 </body>
 </html>
