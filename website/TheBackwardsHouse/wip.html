@@ -54,8 +54,8 @@ html, body {
 
     .link-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, auto);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(auto, auto);
         gap: 1rem;
         max-width: 900px;
         margin: 2rem auto;
@@ -84,33 +84,12 @@ html, body {
 </head>
 <body>
 <div class="comic-container" ><img class="logo" src="https://file.garden/aPLVV7Bv-XUF9QCk/a%20casa%20do%20contra/ch1/logo.png" alt="logo"></div>
-<h2>Capítulo 1</h2>
-
-<div class="comic-container" id="comic"></div>
-
-<script>
-const container = document.getElementById("comic");
-const base = "https://file.garden/aPLVV7Bv-XUF9QCk/a%20casa%20do%20contra/ch1/";
-
-for (let i = 1; i <= 40; i++) {
-    const img = document.createElement("img");
-    img.className = "comic-page";
-    img.loading = "lazy";
-    img.src = `${base}${i}.jpg`;
-    img.alt = `Pagina ${i}`;
-    container.appendChild(img);
-}
-</script>
+<h2>Isso não ta pronto ainda...</h2>
 
 <div class="link-grid">
-    <a href="#">⬅</a>
-    <a href="chlist.html">■</a>
-    <a href="wip.html">➡</a>
-    <a href="https://www.kickstarter.com/projects/skynixart/the-backwards-house-a-mascot-horror-comic">Kickstarter original</a>
-    <a href="https://discord.gg/PT8wKuxZXz">Discord BR</a>
-    <a href="https://globalcomix.com/c/the-backwards-house">Quadrinhos originais</a>
+    <a href="chlist.html">Lista de capitulos</a>
 </div>
-
+<p style="font-size: x-large">Entre no <a href="https://discord.gg/PT8wKuxZXz">Discord</a> para ser notificado de quando eu termino novos capítulos!</p>
 <p class="grayp">Isso não é official!!!!! Eu não conheço o time original, e todos os direitos de copyright vão pro skynix.</p>
 <p class="grayp">Tradução por <a href="https://lucastheguy.nekoweb.org">LucasTheGuy</a></p>
 <p class="grayp">favicon por <a href="https://x.com/cauchuyennova">Nova</a></p>
