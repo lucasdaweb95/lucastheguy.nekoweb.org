@@ -1,18 +1,18 @@
 (async () => {
     try {
-        const res = await fetch("/version.txt?ts=" + Date.now());
+        const res = await fetch("/version.txt", {
+            cache: "no-cache"
+        });
         const serverVersion = (await res.text()).trim();
         const localVersion = localStorage.getItem("siteVersion");
 
         if (localVersion !== serverVersion) {
             localStorage.setItem("siteVersion", serverVersion);
 
-            const url = new URL(location.href);
-            url.searchParams.set("v", serverVersion);
-
-            location.href = url.toString();
+            // Force reload to pull new assets
+            window.location.reload();
         }
-    } catch (e) {
-        console.error("Version check failed:", e);
+    } catch (err) {
+        console.error("Version check failed:", err);
     }
 })();
