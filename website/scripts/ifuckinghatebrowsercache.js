@@ -6,10 +6,13 @@
         const serverVersion = (await res.text()).trim();
         const localVersion = localStorage.getItem("siteVersion");
 
+        console.log("Local vs Server:", localVersion, serverVersion);
+
         if (localVersion !== serverVersion) {
+            console.log("Version mismatch. Reloading…");
+
             localStorage.setItem("siteVersion", serverVersion);
 
-            // Force reload to pull new assets
             window.location.reload();
         }
     } catch (err) {
