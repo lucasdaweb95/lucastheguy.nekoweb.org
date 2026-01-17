@@ -11,8 +11,15 @@ body {
 	color: black;
 }
 .container {
-	width: 100%;
-	position: relative;
+	display: flex;
+	justify-content: center;
+	
+}
+
+.container div {
+  margin: 0px;
+  padding: 10px;
+  text-align: center;  
 }
 
 .main {
@@ -28,10 +35,8 @@ body {
 }
 
 .webringz {
-	position: absolute;
-	left: calc(50% - 450px - 120px);
 	top: 50px;
-	display: block;
+	
 }
 
 @media (max-width: 1100px) {
