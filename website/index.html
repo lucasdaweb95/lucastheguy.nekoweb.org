@@ -10,11 +10,40 @@
 		<meta content="LucasTheGuy's website thingy?????? i think????????????" property="og:title" />
 		<meta content="html is hard vro..." property="og:description" />
 		<meta content="https://lucastheguy.nekoweb.org/" property="og:url" />
-		<meta content="images/icon.png" property="og:image" />
-		<meta content="DodgerBlue" data-react-helmet="true" name="theme-color" />
+		<meta content="/images/icon.png" property="og:image" />
+		<style>
+
+						.thing {
+							animation: Stretch 3s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+							image-rendering: pixelated;
+							width: 50%;
+							height: 50%;
+							margin-bottom: 20px;
+							}
+
+						@keyframes Stretch {
+							0%, 100% {
+								transform: scale(1,1);
+							}
+							50% {
+								transform: scale(0.9,1.1);
+							}
+						}
+
+						.lastfm {
+				text-align: center;
+				position: relative;
+				margin: auto;
+				top: 10px;
+				border: 5px solid black;
+				background-color: #ffffff;
+				box-sizing: border-box;
+				max-width: 200px;
+			}
+		</style>
+		<script src="https://lucastheguy.nekoweb.org/scripts/lastfm.js"></script>
 	</head>
 	<body>
-		<script src="https://lucastheguy.nekoweb.org/scripts/ifuckinghatebrowsercache.js"></script>
 		<div class="container">
 			<div class="webringz">
 				<map name="badge-wwstamp">
@@ -28,12 +57,22 @@
 				<br />
 			</div>
 			<div class="main">
-				<h1>LucasTheGuy (Thats me!)</h1>
+				<img src="https://lucastheguy.nekoweb.org/images/logo.png" class="thing" />
+				<br />
 				<iframe src="https://nekoweb.org/frame/follow" frameborder="0" width="156" height="30" style="position: relative; bottom: 10px"></iframe>
 				<br />
-				i am an idiotic teen (14yrsold) who is also brazilian
+				i am an idiotic teen (15yrs old) who is also
+				<span class="genocides" style="--genocideColor: #00ff00">brazilian</span>
 				<br />
+
 				i also do translation from english to brazilian portuguese and vice versa
+
+				<div class="lastfm">
+					<p style="margin-bottom: 5px; text-align: center;">Listning to</p>
+					<br />
+					<div id="listening" style="text-align: center;"><h3>NOTHING!!</h3></div>
+				</div>
+
 				<h2>Websites</h2>
 				<a href="https://lucastheguy.nekoweb.org/ask?ver=221125">Send me something</a>
 				<br />
@@ -43,7 +82,6 @@
 				<br />
 				<a href="https://lucastheguy.nekoweb.org/guestbook">Guestbook</a>
 				<br />
-
 				<h2>Games i like</h2>
 				<p>
 					<a href="https://store.steampowered.com/app/440" target="_blank">TF2</a>
@@ -60,17 +98,25 @@
 				<h2>Social media</h2>
 
 				<p>
-          <a href="https://artfight.net" target="_blank">
-						<img src="images/artfight.png" alt="Artfight.net" class="smol" />ArtFight</a>
+					<a href="https://artfight.net/~LucasTheGuy" target="_blank">
+						<img src="images/artfight.png" alt="Artfight.net" class="smol" />
+						ArtFight
+					</a>
 					<br />
 					<a href="https://bsky.app/profile/lucastheguy.ooooooooooooooooooooooooooo.ooo" target="_blank">
-						<img src="images/bluesky.png" alt="bsky.app" class="smol" />Bluesky</a>
+						<img src="images/bluesky.png" alt="bsky.app" class="smol" />
+						Bluesky
+					</a>
 					<br />
 					<a href="https://www.youtube.com/channel/UC5wDU0iMV2CLfrR7wxPf9cQ" target="_blank" style="position: relative; right: -2px">
-						<img src="images/youtube.png" alt="Youtube.com" class="smol" />Youtube</a>
+						<img src="images/youtube.png" alt="Youtube.com" class="smol" />
+						Youtube
+					</a>
 					<br />
 					<a href="https://discordapp.com/users/537206158981857280" target="_blank">
-						<img src="images/discord.png" alt="Discord.com" class="smol" />Discord</a>
+						<img src="images/discord.png" alt="Discord.com" class="smol" />
+						Discord
+					</a>
 					<br />
 					<a href="mailto:lucas.theguy@tuta.io" target="_blank" style="position: relative; right: 3px">✉️E-Mail</a>
 				</p>
@@ -88,17 +134,21 @@
 				My friends :)
 				<br />
 				<a href="https://spax.zone/" target="_blank"><img src="https://spax.zone/buttons/spaxdotzone.gif" alt="spax.zone" style="image-rendering: pixelated" /></a>
-				<a href="https://meowzone.nekoweb.org" target="_blank"><img src="https://meowzone.nekoweb.org/images/gif-pb/88x31.gif" width="88" height="31" alt="FlppyDisk's" style="image-rendering: pixelated"/></a>
+				<a href="https://meowzone.nekoweb.org" target="_blank"><img src="https://meowzone.nekoweb.org/images/gif-pb/88x31.gif" width="88" height="31" alt="FlppyDisk's" style="image-rendering: pixelated" /></a>
 				<a href="https://nataliexists.nekoweb.org/" target="_blank"><img src="images/nataliebutton.png" alt="Nataliexists" style="image-rendering: pixelated" /></a>
 				<a href="https://novaevan.neocities.org/" target="_blank"><img src="https://novaevan.neocities.org/novabutton.gif" alt="NovaEvan" style="image-rendering: pixelated" /></a>
-				<a href="https://jbc.lol/" target="_blank"><img src="https://jbc.lol/sitebutton3.png?0.37763858411399176" width="88" height="31" alt="jbc" style="image-rendering: pixelated"/></a>
+				<a href="https://jbc.lol/" target="_blank"><img src="https://jbc.lol/sitebutton3.png?0.37763858411399176" width="88" height="31" alt="jbc" style="image-rendering: pixelated" /></a>
+				<br>
+				<a href="https://nomaakip.xyz" target="_blank"><img src="https://nomaakip.xyz/img/buttons/button2.png" width="88" height="31" alt="nomaakip" style="image-rendering: pixelated" /></a>
+				<a href="https://8bitosc.net/" target="_blank"><img src="https://8bitosc.net/img/88x31/jay.gif" width="88" height="31" alt="8bitosc" style="image-rendering: pixelated" /></a>
+				<a href="https://vuvien.nekoweb.org"><img src="https://vuvien.nekoweb.org/vbutton2.jpg" /></a>
+				<a href="https://archi.moe"><img src="https://archi.moe/images/button.png"></a>
 			</div>
 		</div>
 		embed my badge on your website!
 		<br />
 		<img src="images/button.gif" alt="LucasTheGuy" />
-		<textarea readonly="" style="height: 31px"><a href="https://lucastheguy.nekoweb.org/" target="_blank"><img src="https://lucastheguy.nekoweb.orgimages/button.gif"></a></textarea>
-		<!-- <iframe src="https://cmt.nkko.link/c/LucasTheGuy" title="Nekomments Coment Section" width="100%" height="300" style="border:none;"></iframe> -->
+		<textarea readonly="" style="height: 31px;"><a href="https://lucastheguy.nekoweb.org/" target="_blank"><img src="https://lucastheguy.nekoweb.org/images/button.gif"></a></textarea>
 		<blockquote>
 			<button onclick="TheElusiveKittyButton()">The elusive kitty button...</button>
 			<script>
@@ -112,6 +162,3 @@
 		<!-- <a href="https://en.wikipedia.org/wiki/Brazilian_advisory_rating_system#Rating_ranges" target="_blank"><img class="sticky" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/DJCTQ_-_10.svg/120px-DJCTQ_-_10.svg.png" /></a> -->
 	</body>
 </html>
-
-
-

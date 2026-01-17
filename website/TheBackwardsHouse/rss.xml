@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0">
+    <channel>
+        <title>A Casa-Do-Contra</title>
+        <description>Blog de desenvolvimento</description>
+        <link>https://lucastheguy.nekoweb.org/TheBackwardsHouse/chlist</link>
+        
+        
+        <item>
+            <title>CAPÍTULO 3 SAIU<title>
+            <description>VAI VAI VAI AGORA</description>
+            <link>https://lucastheguy.nekoweb.org/TheBackwardsHouse/ch3</link>
+            <guid>ch3release</guid>
+            <pubDate>Sat 10 Jan 2026, 20:16:00 -0300</pubDate>
+        </item>
+        
+        <item>
+            <title>Capítulo 3 completo!<title>
+            <description>Time diz que o capítulo deve sair publicamente no 11 de janeiro.</description>
+            <link>https://lucastheguy.nekoweb.org/TheBackwardsHouse/rss.xml</link>
+            <guid>ch3agr</guid>
+            <pubDate>Sex 16 Dec 2025, 16:10:00 -0300</pubDate>
+        </item>
+        
+        <item>
+            <title>Tenho acesso a capítulo 3!<title>
+            <description>O processo de verificação acabou, e eu agora vou começar o processo de tradução.</description>
+            <link>https://lucastheguy.nekoweb.org/TheBackwardsHouse/rss.xml</link>
+            <guid>ch3agr</guid>
+            <pubDate>Sex 16 Dec 2025, 16:10:00 -0300</pubDate>
+        </item>
+        
+                <item>
+            <title>Kickstarter acabou!</title>
+            <description>Maaais eu não tenho acesso aos capítulos ainda. Fui dito que o Kickstarter pode demorar até 5 dias úteis pra começar p processo de verificação.</description>
+            <link>https://lucastheguy.nekoweb.org/TheBackwardsHouse/rss.xml</link>
+            <guid>ch3qnd</guid>
+            <pubDate>Sex 16 Dec 2025, 16:10:00 -0300</pubDate>
+        </item>
+        
+        <item>
+            <title>Capítulo 3 quando?</title>
+            <description>Eu não tenho certeza exata, mais o time original parece estar planejando o lançamento público de capítulos novos em ou janeiro eu fevereiro.</description>
+            <link>https://www.kickstarter.com/projects/skynixart/the-backwards-house-a-mascot-horror-comic</link>
+            <guid>ch3qnd</guid>
+            <pubDate>Sex 14 Dec 2025, 19:10:00 -0300</pubDate>
+        </item>
+        
+        <item>
+            <title>Paguei o Kickstarter!</title>
+            <description>10 conto jogado fora, mais com isso vou ter acesso cedo aos capítulos novos, então se deus quiser consigo publicar traduções novas junto com os oficiais!</description>
+            <link>https://www.kickstarter.com/projects/skynixart/the-backwards-house-a-mascot-horror-comic</link>
+            <guid>10conto</guid>
+            <pubDate>Sex 13 Dec 2025, 23:38:00 -0300</pubDate>
+        </item>
+        
+        <item>
+            <title>Tradução dos capítulos 1 e 2 completos</title>
+            <description>yaaaaaay!!!! Agora eu espero até os proximos saírem pra traduzir esses também...</description>
+            <link>https://lucastheguy.nekoweb.org/TheBackwardsHouse/ch2.html</link>
+            <guid>initialtrad</guid>
+            <pubDate>Ter 25 Nov 2025, 21:34:00 -0300</pubDate>
+            <style>
+            </style>
+        </item>
+    </channel>
+</rss>
+        
